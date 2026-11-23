@@ -1,3 +1,4 @@
+
 name: Build Android APK
 
 on:
@@ -21,7 +22,7 @@ jobs:
       - name: Install dependencies
         run: flutter pub get
 
-            - name: Analyze
+      - name: Analyze
         run: flutter analyze --no-fatal-infos
 
       - name: Build APK
